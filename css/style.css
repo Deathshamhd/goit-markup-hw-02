@@ -98,14 +98,18 @@ color: var(--light-background-color);
 }
 .hero-button
 {
-    width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
-
-background:var(--accent-color);
+   
+background-color:var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30/16);
+
+color: var(--light-background-color);
+
+
 }
 .hero-text
 {
@@ -121,10 +125,7 @@ letter-spacing: 0.06em;
 
 color: var(--light-background-color);
 }
-.feature-section
-{
-   background-color:var(--light-background-color);
-}
+
 .feature-title
 {
     font-weight: 700;
@@ -217,6 +218,12 @@ letter-spacing: 0.03em;
 
 color: var(--accent-color);
 }
+
+.adress-contact
+{
+    font-style: normal;
+}
+
 .addrees-map
 {
     font-weight: 400;
@@ -224,8 +231,10 @@ color: var(--accent-color);
     line-height: calc(24/14);
     
     letter-spacing: 0.03em;
-    
-    color:var(--light-background-color);
+
+    background-color: var(--light-background-color);
+
+    font-style: normal;
     
 }
 
@@ -263,7 +272,13 @@ color: var(--secondry-text-color);
 
 .all-button
 {
-    color: var(--light-background-color);
+    background-color: var(--light-background-color);
+    border-radius: 4px;
+    color:var(--primary-text-color);
+    font-weight: 500;
+font-size: 16px;
+line-height: calc(26/16);
+
 }
 
 .all-text
