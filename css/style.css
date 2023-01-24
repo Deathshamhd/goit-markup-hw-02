@@ -17,14 +17,18 @@ a
     text-decoration: none;
 
 }
-a:hover
+a:hover,a:focus
 {
     color: var(--accent-color);
+   
+    
 }
 a:active
 {
     color: var(--accent-color);
 }
+
+
 ul
 {
     list-style:none;
@@ -59,6 +63,15 @@ line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
+
+.nav-link:hover,.nav-link:focus
+
+
+{
+    color: var(--accent-color);
+    
+}
+
 .contact-mailto
 {
     font-weight: 500;
