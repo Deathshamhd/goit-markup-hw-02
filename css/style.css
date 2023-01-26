@@ -138,7 +138,7 @@ letter-spacing: 0.06em;
 
 text-transform: uppercase;
 
-color: var(--light-background-color);
+color: white;
 }
 .hero-button
 {
@@ -329,7 +329,7 @@ line-height: calc(24/14);
 
 }
 
-.addrees-map
+.address-map
 {
 
     font-family: 'Roboto';
@@ -344,7 +344,7 @@ line-height: calc(24/14);
 
     font-style: normal;
 
-    color: var(--light-background-color);
+    color: white;
     
 }
 
@@ -364,7 +364,7 @@ line-height:calc(24/14);
 
 letter-spacing: 0.03em;
 
-color: var(--light-background-color);
+color: var(--secondry-text-color);
 }
 .address-tel
 {
@@ -409,6 +409,7 @@ line-height: calc(26/16);
 }
 
 
+
 .all-button
 {
     font-family: 'Roboto';
@@ -427,7 +428,18 @@ line-height: calc(26/16);
 
 border: none;
 
+cursor: pointer;
+
 }
+
+.all-button:hover,
+.all-button:focus
+{
+    background-color: var(--accent-color);
+    color:white;
+
+}
+
 
 .all-button-current 
 
